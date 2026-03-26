@@ -4,5 +4,9 @@
 import os
 os.system("cls")
 
-sumar = lambda x, y: x + y
-potencia = lambda base, exponente: base ** exponente
+suma = lambda a,b : a+b
+potencia = lambda c,d : c**d
+
+print(suma(5,8))
+print(potencia(8,8))
+
